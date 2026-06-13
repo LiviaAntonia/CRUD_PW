@@ -27,8 +27,6 @@ body{
     min-height:100vh;
 }
 
-/* SIDEBAR */
-
 .sidebar{
     width:260px;
     background:linear-gradient(180deg,#2563eb,#1e40af);
@@ -61,9 +59,6 @@ body{
     color:var(--primary);
     transform:translateX(5px);
 }
-
-/* CONTEÚDO */
-
 .content{
     flex:1;
     padding:35px;
@@ -95,8 +90,6 @@ body{
     margin-top:20px;
 }
 
-/* INPUTS */
-
 label{
     font-weight:600;
     color:#475569;
@@ -118,8 +111,6 @@ input:focus{
     border-color:var(--primary);
     box-shadow:0 0 0 4px rgba(37,99,235,.15);
 }
-
-/* BOTÕES */
 
 .btn{
     padding:12px 20px;
@@ -153,8 +144,6 @@ input:focus{
     color:white;
 }
 
-/* DASHBOARD */
-
 .dashboard{
     margin-bottom:20px;
 }
@@ -168,14 +157,9 @@ input:focus{
     color:var(--primary);
     font-size:40px;
 }
-
-/* PESQUISA */
-
 #search{
     margin-top:20px;
 }
-
-/* TABELA */
 
 table{
     width:100%;
@@ -205,8 +189,6 @@ tr:hover{
     background:#f8fafc;
 }
 
-/* IMAGEM */
-
 img.prod{
     width:65px;
     height:65px;
@@ -215,15 +197,11 @@ img.prod{
     box-shadow:0 4px 10px rgba(0,0,0,.15);
 }
 
-/* HR */
-
 hr{
     margin:25px 0;
     border:none;
     border-top:1px solid var(--border);
 }
-
-/* RESPONSIVO */
 
 @media(max-width:768px){
 
