@@ -1,13 +1,13 @@
 :root{
-    --primary:#2563eb;
-    --primary-dark:#1d4ed8;
+    --primary:#7c3aed;
+    --primary-dark:#6d28d9;
     --success:#10b981;
     --warning:#f59e0b;
     --danger:#ef4444;
-    --bg:#f1f5f9;
+    --bg:#f3f0ff;
     --card:#ffffff;
-    --text:#1e293b;
-    --border:#e2e8f0;
+    --text:#312e81;
+    --border:#ddd6fe;
 }
 
 *{
