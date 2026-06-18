@@ -64,6 +64,7 @@ products.push(product);
 }
 
 localStorage.setItem("products",JSON.stringify(products));
+alert("Produto salvo com sucesso!");
 clearForm();
 showPage("listagem");
 }
